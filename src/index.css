@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  @font-face {
+    font-family: 'Raleway';
+    src: local('Raleway'),
+      url(./fonts/Raleway/Raleway-Regular.ttf) format('truetype');
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: 'Raleway';
+    src: local('Raleway'),
+      url(./fonts/Raleway/Raleway-Light.ttf) format('truetype');
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: 'Raleway';
+    src: local('Raleway'),
+      url(./fonts/Raleway/Raleway-Medium.ttf) format('truetype');
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: 'Raleway';
+    src: local('Raleway'),
+      url(./fonts/Raleway/Raleway-SemiBold.ttf) format('truetype');
+    font-weight: 600;
+  }
+
+  @font-face {
+    font-family: 'Raleway';
+    src: local('Raleway'),
+      url(./fonts/Raleway/Raleway-Bold.ttf) format('truetype');
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'),
+      url(./fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'RobotoCondensed';
+    src: local('Roboto_Condensed'),
+      url(./fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf) format('truetype');
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: 'SourceSansPro';
+    src: local('SourceSansPro'),
+      url(./fonts/SourceSansPro/SourceSansPro-Regular.ttf) format('truetype');
+    font-weight: 400;
+  }
+}
+
+@layer components {
+  .btn-green {
+    @apply rounded bg-green-500 py-2 px-4 font-raleway font-bold text-white;
+  }
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

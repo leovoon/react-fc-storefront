@@ -1,0 +1,16 @@
+.description div {
+    width: 100%;
+    max-width: max-content;
+    min-height: 300px;
+}
+
+.description div ul {
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-bottom: 20px;
+}
+
+.description h1 {
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
