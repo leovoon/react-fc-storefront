@@ -34,7 +34,7 @@ export default function ProductImageViewer({
       </div>
       <div className="-pl-4 order-1 max-h-[550px] border border-gray-300 sm:order-2">
         <img
-          className="aspect-square h-full w-full bg-gray-400 object-contain"
+          className="aspect-square h-full w-full  object-contain"
           src={images[currentImage]}
           alt={name}
         />

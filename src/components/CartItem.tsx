@@ -35,7 +35,7 @@ export default function CartItemComponent({
   return (
     <div
       className={`first-border-t-gray-300 flex content-center justify-between border-b border-b-gray-300 py-6 first:border-t ${
-        mini && 'gap-x-2 border-none pl-2 pr-2'
+        mini && 'gap-x-2 border-none pl-2 pr-2 pb-10'
       }`}
     >
       <div

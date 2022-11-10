@@ -35,7 +35,7 @@ export default function Cart() {
       <BaseButton
         // eslint-disable-next-line no-console
         onClick={() => console.log(cartItems)}
-        className="h-10 w-[279px]"
+        className="btn-green h-10 w-[279px]"
       >
         Order
       </BaseButton>

@@ -30,8 +30,8 @@ export default function CartMini({
         className="pointer-events-auto absolute inset-0 z-30 h-full w-full bg-gray-500/50"
         aria-label="overlay"
       ></div>
-      <div className="pointer-events-auto absolute top-14 z-40 h-full max-h-max min-h-[250px] w-full bg-white py-8 px-4 sm:top-0 sm:right-[101px] sm:w-[330px] ">
-        <div className="px-2 pb-8 text-base font-bold leading-[160%]">
+      <div className="pointer-events-auto absolute top-14 z-40 h-max  min-h-[250px] w-full bg-white py-8 px-4 sm:top-0 sm:right-[101px] sm:w-[330px] ">
+        <div className="px-2 pb-6 text-base font-bold leading-[160%]">
           My Bag
           <span className="font-normal">
             , {cartTotalQty} {cartTotalQty > 1 ? 'items' : 'item'}
@@ -47,7 +47,7 @@ export default function CartMini({
 
         <div>
           {cartItems.length === 0 && (
-            <p className="flex h-full min-h-[120px] items-center justify-center font-raleway">
+            <p className="flex h-max min-h-[120px] items-center justify-center font-raleway">
               Your cart is empty
             </p>
           )}
